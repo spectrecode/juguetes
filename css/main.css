@@ -1,0 +1,54 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: black;
+	margin: 50px;
+}
+
+.pokebola {
+	width: 20rem;
+	height: 20rem;
+	background: #FFFFFF;
+	border-radius: 50%;	
+}	
+
+.pokebola::before{
+	content: " ";
+	width: 20rem;
+	height: 10rem;
+	background: #F01A1A;
+	border-radius: 10rem 10rem 0 0;
+	position: absolute;
+}
+
+.detalles {
+	width: 20rem;
+	height: 2rem;
+	background: #333;
+	margin-top: 9rem;
+	position: absolute;
+}
+
+.detalles::before{
+	content: " ";
+	width: 6rem;
+	height: 6rem;
+	background: #333;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: -2rem;
+	margin-left: 7.0rem;
+}
+
+.detalles::after{
+	content: " ";
+	width: 4rem;
+	height: 4rem;
+	background: #fff;
+	border-radius: 50%;
+	margin-top: -1rem;
+	margin-left: 8rem;
+	position: absolute;
+}
